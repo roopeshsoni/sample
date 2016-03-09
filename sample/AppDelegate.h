@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#define kActivityIndicatorPosition 1.0f
+#define kActivityIndicatorViewAlphaDisable 0.5f
+#define kActivityIndicatorViewAlphaEnable 1.0f
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-
 @end
 

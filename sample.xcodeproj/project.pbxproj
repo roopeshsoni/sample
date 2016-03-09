@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		CA3273AB1C8F43AA00D38778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3273AA1C8F43AA00D38778 /* main.m */; };
 		CA3273AE1C8F43AA00D38778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3273AD1C8F43AA00D38778 /* AppDelegate.m */; };
-		CA3273B11C8F43AA00D38778 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3273B01C8F43AA00D38778 /* MasterViewController.m */; };
-		CA3273B41C8F43AA00D38778 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3273B31C8F43AA00D38778 /* DetailViewController.m */; };
+		CA3273B11C8F43AA00D38778 /* EpisodeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3273B01C8F43AA00D38778 /* EpisodeListViewController.m */; };
+		CA3273B41C8F43AA00D38778 /* EpisodeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3273B31C8F43AA00D38778 /* EpisodeDetailViewController.m */; };
 		CA3273B71C8F43AA00D38778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3273B51C8F43AA00D38778 /* Main.storyboard */; };
 		CA3273B91C8F43AA00D38778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3273B81C8F43AA00D38778 /* Assets.xcassets */; };
 		CA3273BC1C8F43AA00D38778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3273BA1C8F43AA00D38778 /* LaunchScreen.storyboard */; };
 		CA3273C71C8F43AA00D38778 /* sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3273C61C8F43AA00D38778 /* sampleTests.m */; };
 		CA3273D21C8F43AA00D38778 /* sampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3273D11C8F43AA00D38778 /* sampleUITests.m */; };
+		CA82A0F81C8F5EB600FDFE05 /* EpisodeDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82A0F71C8F5EB600FDFE05 /* EpisodeDetails.m */; };
+		CA82A0FB1C8F99DB00FDFE05 /* action_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA82A0F91C8F99DB00FDFE05 /* action_icon.png */; };
+		CA82A0FC1C8F99DB00FDFE05 /* refresh_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA82A0FA1C8F99DB00FDFE05 /* refresh_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +43,10 @@
 		CA3273AA1C8F43AA00D38778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA3273AC1C8F43AA00D38778 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA3273AD1C8F43AA00D38778 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA3273AF1C8F43AA00D38778 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		CA3273B01C8F43AA00D38778 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		CA3273B21C8F43AA00D38778 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		CA3273B31C8F43AA00D38778 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CA3273AF1C8F43AA00D38778 /* EpisodeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpisodeListViewController.h; sourceTree = "<group>"; };
+		CA3273B01C8F43AA00D38778 /* EpisodeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpisodeListViewController.m; sourceTree = "<group>"; };
+		CA3273B21C8F43AA00D38778 /* EpisodeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpisodeDetailViewController.h; sourceTree = "<group>"; };
+		CA3273B31C8F43AA00D38778 /* EpisodeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpisodeDetailViewController.m; sourceTree = "<group>"; };
 		CA3273B61C8F43AA00D38778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA3273B81C8F43AA00D38778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA3273BB1C8F43AA00D38778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,10 @@
 		CA3273CD1C8F43AA00D38778 /* sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3273D11C8F43AA00D38778 /* sampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleUITests.m; sourceTree = "<group>"; };
 		CA3273D31C8F43AA00D38778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA82A0F61C8F5EB600FDFE05 /* EpisodeDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpisodeDetails.h; sourceTree = "<group>"; };
+		CA82A0F71C8F5EB600FDFE05 /* EpisodeDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpisodeDetails.m; sourceTree = "<group>"; };
+		CA82A0F91C8F99DB00FDFE05 /* action_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = action_icon.png; sourceTree = "<group>"; };
+		CA82A0FA1C8F99DB00FDFE05 /* refresh_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +111,17 @@
 		CA3273A81C8F43AA00D38778 /* sample */ = {
 			isa = PBXGroup;
 			children = (
+				CA82A0F51C8F5E4700FDFE05 /* Model */,
 				CA3273AC1C8F43AA00D38778 /* AppDelegate.h */,
 				CA3273AD1C8F43AA00D38778 /* AppDelegate.m */,
-				CA3273AF1C8F43AA00D38778 /* MasterViewController.h */,
-				CA3273B01C8F43AA00D38778 /* MasterViewController.m */,
-				CA3273B21C8F43AA00D38778 /* DetailViewController.h */,
-				CA3273B31C8F43AA00D38778 /* DetailViewController.m */,
+				CA3273AF1C8F43AA00D38778 /* EpisodeListViewController.h */,
+				CA3273B01C8F43AA00D38778 /* EpisodeListViewController.m */,
+				CA3273B21C8F43AA00D38778 /* EpisodeDetailViewController.h */,
+				CA3273B31C8F43AA00D38778 /* EpisodeDetailViewController.m */,
 				CA3273B51C8F43AA00D38778 /* Main.storyboard */,
 				CA3273B81C8F43AA00D38778 /* Assets.xcassets */,
+				CA82A0F91C8F99DB00FDFE05 /* action_icon.png */,
+				CA82A0FA1C8F99DB00FDFE05 /* refresh_icon.png */,
 				CA3273BA1C8F43AA00D38778 /* LaunchScreen.storyboard */,
 				CA3273BD1C8F43AA00D38778 /* Info.plist */,
 				CA3273A91C8F43AA00D38778 /* Supporting Files */,
@@ -143,6 +153,15 @@
 				CA3273D31C8F43AA00D38778 /* Info.plist */,
 			);
 			path = sampleUITests;
+			sourceTree = "<group>";
+		};
+		CA82A0F51C8F5E4700FDFE05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA82A0F61C8F5EB600FDFE05 /* EpisodeDetails.h */,
+				CA82A0F71C8F5EB600FDFE05 /* EpisodeDetails.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +267,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA82A0FB1C8F99DB00FDFE05 /* action_icon.png in Resources */,
 				CA3273BC1C8F43AA00D38778 /* LaunchScreen.storyboard in Resources */,
+				CA82A0FC1C8F99DB00FDFE05 /* refresh_icon.png in Resources */,
 				CA3273B91C8F43AA00D38778 /* Assets.xcassets in Resources */,
 				CA3273B71C8F43AA00D38778 /* Main.storyboard in Resources */,
 			);
@@ -276,9 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3273AE1C8F43AA00D38778 /* AppDelegate.m in Sources */,
-				CA3273B11C8F43AA00D38778 /* MasterViewController.m in Sources */,
+				CA3273B11C8F43AA00D38778 /* EpisodeListViewController.m in Sources */,
 				CA3273AB1C8F43AA00D38778 /* main.m in Sources */,
-				CA3273B41C8F43AA00D38778 /* DetailViewController.m in Sources */,
+				CA82A0F81C8F5EB600FDFE05 /* EpisodeDetails.m in Sources */,
+				CA3273B41C8F43AA00D38778 /* EpisodeDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +526,7 @@
 				CA3273D81C8F43AA00D38778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA3273D91C8F43AA00D38778 /* Build configuration list for PBXNativeTarget "sampleTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +535,7 @@
 				CA3273DB1C8F43AA00D38778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA3273DC1C8F43AA00D38778 /* Build configuration list for PBXNativeTarget "sampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +544,7 @@
 				CA3273DE1C8F43AA00D38778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
